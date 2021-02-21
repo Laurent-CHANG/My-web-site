@@ -24,7 +24,7 @@ html, body {
 .etoiles {
     width: 100%;
     height: 100vh;
-    background: url(ressources/space.jpg) no-repeat 50% 50%;
+    background: url(ressources/space.jpg) no-repeat 50% 100%;
     background-size: cover;
     position: relative;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 .etoiles .planete {
-    width: 30%;
+    width: 35%;
     position: absolute;
     top: 80%;
     bottom: 0;
@@ -59,17 +59,16 @@ p {
 }
 .titre-folio{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 80px;
   font-family: 'Rubik', sans-serif;
   font-size: 35px;
   color: #ffffff;
 }
 .experience{
-  margin-top: 250px;
+  margin-top: 80px;
   width: 800px;
   padding: 30px;
   text-align: justify;
-  border-radius: 10px;
 }
 .bloc-text-1{
   width: 300px;
@@ -91,6 +90,6 @@ p {
 }
 .reveal-visible{
   opacity: 1;
-  transform: translate(50%, 0%);
-  transition: 2s cubic-bezier(.5,0,0,1);
+  transform: translate(45%, 0%);
+  transition: 3s cubic-bezier(.5,0,0,1);
 }

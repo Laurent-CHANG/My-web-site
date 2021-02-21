@@ -6,7 +6,7 @@ $(window).scroll(function() {
     //console.log(scrollPos);
     
     $('.etoiles').css({
-        'background-size' : 110 + scrollPos + '%'
+        'background-size' : 104 + scrollPos + '%'
     })
     $('.planete').css({
         'top': 80 - scrollPos + '%'
