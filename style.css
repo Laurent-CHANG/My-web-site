@@ -64,11 +64,9 @@ p {
   font-size: 35px;
   color: #ffffff;
 }
-.automotive{
+.experience{
   margin-top: 250px;
-  margin-left: 50%;
   width: 800px;
-  transform: translate(-50%, -50%);
   padding: 30px;
   text-align: justify;
   border-radius: 10px;
@@ -93,6 +91,6 @@ p {
 }
 .reveal-visible{
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(50%, 0%);
   transition: 2s cubic-bezier(.5,0,0,1);
 }

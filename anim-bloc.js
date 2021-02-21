@@ -7,15 +7,14 @@ const options = {
 
 const handleIntersect = function (entries, observer){
     entries.forEach(function (entry) {
-        if (entry.intersectionRatio > ratio){
+        if (entry.intersectionRatio > ratio && entry.intersectionRatio < 0.9){
             entry.target.classList.add('reveal-visible')
-            //observer.unobserve(entry.target)
-        }
-        else {
-            entry.target.classList.remove('reveal-visible')
+            observer.unobserve(entry.target);
         }
     })
 }
 
 const observer = new IntersectionObserver(handleIntersect, options)
-observer.observe(document.querySelector('.reveal'))
+
+const blocksToReveal = document.querySelectorAll('[data-reveal-target]');
+blocksToReveal.forEach(blockToReveal => observer.observe(blockToReveal))
