@@ -35,15 +35,15 @@
         
         <div id="menuContent" class="navbar-menu">
             <div class="navbar-start">
-            <a class="navbar-item" href="#">
+            <a class="navbar-item" href="#acc">
                 Accueil
             </a>
             </div>
         
             <div class="navbar-end">
     
-                <a class="navbar-item" href="#aprop">
-                    À Propos
+                <a class="navbar-item" href="#je">
+                    Qui suis-je?
                 </a>
                 <a class="navbar-item" href="#real">
                     Mes Réalisations
@@ -56,12 +56,20 @@
         </div>
         </nav>
 
+<!-- Titre Accueil -->
+
+<div class="text-accueil">
+    <h1>Bienvenue</h1>
+        <h2>Laurent CHANG</h2>
+        <h3>Product Owner / Scrum Master / Coach Agile</h3>
+ </div>
+
 <!-- Presentation -->
 
-<div class="etoiles">
+<div class="etoiles" id="acc">
     <img src="ressources/terre-blue-2.png" alt="mars" class="planete">
 </div>
-<div class="contenu">
+<div class="contenu" id="je">
     <h1 class="titre-accueil">Qui suis-je?</h1>
     <p>
         En 2011 j’ai participé à l’étude et à la conception du projet DS6 Wild Ruby destinée au marché chinois.
@@ -80,23 +88,69 @@
 
 <!-- Bulle d'expériences -->
 
-<h1 class="titre-folio">Porte folio</h1>
+<h1 class="titre-folio" id="real">Mes réalisations</h1>
 
 <div class="experience reveal" data-reveal-target="0">
     <div class="bloc-text-1"></div>
-        <h2 class="titre-auto">Conception automobile</h2>
+        <h2 class="titre-auto">Ingénierie industrielle</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime obcaecati eos quam iste quae vitae voluptatem id eveniet autem! Nihil nemo laudantium quae animi deserunt iure quisquam at voluptatibus aut, facilis, eos inventore totam quo fugiat ad tempore vel similique! Modi autem laboriosam error incidunt blanditiis quaerat officia, odio cumque ullam! Odit adipisci labore mollitia fugit aliquam debitis perspiciatis ex. <p>
 </div>
 <div class="experience reveal" data-reveal-target="1">
     <div class="bloc-text-1"></div>
-        <h2 class="titre-auto">Conception automobile</h2>
+        <h2 class="titre-auto">Le management</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime obcaecati eos quam iste quae vitae voluptatem id eveniet autem! Nihil nemo laudantium quae animi deserunt iure quisquam at voluptatibus aut, facilis, eos inventore totam quo fugiat ad tempore vel similique! Modi autem laboriosam error incidunt blanditiis quaerat officia, odio cumque ullam! Odit adipisci labore mollitia fugit aliquam debitis perspiciatis ex. Eveniet alias tempore autem possimus ipsam<p>
 </div>
 <div class="experience reveal" data-reveal-target="2">
     <div class="bloc-text-1"></div>
-        <h2 class="titre-auto">Conception automobile</h2>
+        <h2 class="titre-auto">L'innovation</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime obcaecati eos quam iste quae vitae voluptatem id eveniet autem! Nihil nemo laudantium quae animi deserunt iure quisquam at voluptatibus aut, facilis, eos inventore totam quo fugiat ad tempore vel similique! Modi autem laboriosam error incidunt blanditiis quaerat officia, odio cumque ullam! Odit adipisci labore mollitia fugit aliquam debitis perspiciatis ex. Eveniet alias tempore autem possimus ipsam<p>
 </div>
+
+<!-- formulaire de contact -->
+
+<section class="section-contact" id="contact">
+
+    <h2><strong>Rentrons</strong> en contact</h2>
+
+    <div class="container-form">
+
+        <form class="form-bloc">
+
+            <div class="form-groupe">
+                <label for="prenom">Entrez votre prénom</label>
+                <input type="text" placeholder="Prénom" required id="prenom">
+            </div>
+
+            <div class="form-groupe">
+                <label for="nom">Entrez votre nom</label>
+                <input type="text" placeholder="Nom" required id="nom">
+            </div>
+
+            <div class="form-groupe">
+                <textarea  id="txt" placeholder="Votre message" required></textarea>
+            </div>
+
+            <div class="form-groupe">
+                <input type="submit" value="ENVOYER" class="button-sub">
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+        Tout droits réservés.créé par Laurent CHANG. 
+        Coach agile / PO / SM / Développeur web.
+        <br>
+        0626625266
+    <address>chang.laurent@gmail.com</address>
+</footer>
+
+
 
 <script src="app.js"></script>
 <script src="anim-bloc.js"></script>
