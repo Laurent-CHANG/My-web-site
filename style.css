@@ -17,7 +17,7 @@ html, body {
     height: auto;
     margin: auto;
     max-width: 70%;
-    padding: 60px 0 40px 0;
+    padding: 20px 0 40px 0;
     text-align: justify;
     font-size: 23px;
 }
@@ -45,7 +45,7 @@ html, body {
     font-size: 40px;
     text-align: center;
     color: #ffffff;
-    padding-top: 40px;
+    padding-top: 95px;
 }
 p {
     font-family: 'Rubik', sans-serif;
@@ -129,6 +129,7 @@ p {
   background: grey;
   background-image: url(ressources/team.png);
   background-size: cover;
+  background-position: center;
   float: left;
   font-family: 'Akaya Kanadaka', cursive;
 }
@@ -145,9 +146,11 @@ p {
 }
 .autor{
   font-style: italic;
+  font-size: medium;
 }
 .citation{
   font-weight: bolder;
+  font-size: large;
 }
 
 /* annimation bloc expérience scroll */
