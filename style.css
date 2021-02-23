@@ -170,9 +170,12 @@ p {
 .section-contact {
   padding-bottom: 150px;
 }
+.H2-contact{
+  color: #aaa;
+}
 .section-contact h2 {
   text-align: center;
-  color: rgb(148, 147, 147);
+  color: #ffffff;
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 50px;
@@ -188,7 +191,7 @@ p {
   margin-bottom: 45px;
 }
 .form-groupe label {
-  color: #aaa;
+  color: rgb(201, 201, 201);
   font-size: 20px;
 }
 .form-groupe input {
@@ -199,7 +202,7 @@ p {
   outline: none;
   background: none;
   border-bottom: 3px solid #aaa;
-  color: #666;
+  color: rgb(184, 184, 184);
   font-size: 20px;
 }
 
@@ -228,7 +231,7 @@ textarea {
   border-radius: 9999px;
   background-image: linear-gradient(to right, transparent 50%, rgb(65,65,65) 50%, rgb(134,134,134));
   background-size: 200%;
-  color: #333;
+  color: #aaa;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -252,8 +255,13 @@ textarea {
 /* section footer */
 
 footer {
-  border-top: 1px solid #333;
+  border-top: 1px solid rgb(170, 168, 168);
   width: 100%;
   text-align: center;
   padding: 50px 10px;
+  color: #aaa;
+}
+footer p{
+  color: #fffb00;
+  font-size: medium;
 }
