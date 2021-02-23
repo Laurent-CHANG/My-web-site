@@ -66,8 +66,9 @@ p {
 .titre-bloc{
   text-align: center;
   font-size: 4vh;
-  color: #b9ae0a;
+  color: #40a4f7;
   font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
 }
 
 
@@ -141,6 +142,7 @@ p {
   background: grey;
   background-image: url(ressources/innovation.jpg);
   background-size: cover;
+  background-position: bottom;
   float: left;
   font-family: 'Akaya Kanadaka', cursive;
 }
@@ -169,6 +171,7 @@ p {
 
 .section-contact {
   padding-bottom: 150px;
+  margin-top: 150px;
 }
 .H2-contact{
   color: #aaa;
@@ -178,7 +181,7 @@ p {
   color: #ffffff;
   font-size: 48px;
   font-weight: 400;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   padding: 200px 0 0 0;
 }
 
