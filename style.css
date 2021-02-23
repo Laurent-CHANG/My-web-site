@@ -84,7 +84,7 @@ p {
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 .parallax p {
   font-size: 65px;
@@ -105,55 +105,60 @@ p {
 /* section experience */
 
 .experience{
-  margin-top: 80px;
-  width: 950px;
-  padding: 20px;
+  width: 1000px;
+  padding: 50px;
   text-align: justify;
+  margin: auto;
 }
 .bloc-text-1{
-  width: 350px;
-  height: 450px;
+  width: 380px;
+  height: 480px;
+  margin: 0px 30px 30px 0px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
   background: grey;
   background-image: url(ressources/car-design.jpg);
   background-size: cover;
-  margin: 0px 30px 30px 0px;
   float: left;
   font-family: 'Akaya Kanadaka', cursive;
 }
 .bloc-text-2{
-  width: 350px;
-  height: 450px;
+  width: 380px;
+  height: 480px;
+  margin: 0px 30px 30px 0px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
   background: grey;
   background-image: url(ressources/team.png);
   background-size: cover;
-  background-position: center;
-  margin: 0px 30px 30px 0px;
   float: left;
   font-family: 'Akaya Kanadaka', cursive;
 }
 .bloc-text-3{
-  width: 350px;
-  height: 450px;
+  width: 380px;
+  height: 480px;
+  margin: 0px 20px 20px 0px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
   background: grey;
   background-image: url(ressources/innovation.jpg);
   background-size: cover;
-  margin: 0px 30px 30px 0px;
   float: left;
   font-family: 'Akaya Kanadaka', cursive;
+}
+.autor{
+  font-style: italic;
+}
+.citation{
+  font-weight: bolder;
 }
 
 /* annimation bloc expérience scroll */
 
 .reveal{
   opacity: 0;
-  transform: translateY(-30px);
+  transform: translateY(10px);
 }
 .reveal-visible{
   opacity: 1;
-  transform: translate(55%, 0%);
+  transform: translate(0%, 20%);
   transition: 2s cubic-bezier(.5,0,0,1);
 }
 
@@ -168,7 +173,7 @@ p {
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 50px;
-  padding: 70px 0 0 0;
+  padding: 200px 0 0 0;
 }
 
 .container-form {
