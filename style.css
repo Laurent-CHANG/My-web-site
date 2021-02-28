@@ -169,7 +169,9 @@ p {
 
 @media screen and (max-width: 1000px){
   .experience{
-    width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
   }
   .bloc-text-1{
     width: 150px;
