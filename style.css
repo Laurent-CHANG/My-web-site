@@ -76,6 +76,10 @@ p {
     width: 90%;
     margin: auto;
   }
+  .cercle{
+    width: 100px;
+    height: 100px;
+  }
 }
 
 
@@ -185,23 +189,9 @@ p {
 }
 @media screen and (max-width: 425px){
   .experience{
-    width: 325px;
+    width: 90%;
   }
-  .bloc-text-1{
-    width: 150px;
-    height: 200px;
-    font-size: 30px;
-  }
-  .bloc-text-2{
-    width: 150px;
-    height: 200px;
-    font-size: 30px;
-  }
-  .bloc-text-3{
-    width: 150px;
-    height: 200px;
-    font-size: 30px;
-  }
+
 }
 
 
