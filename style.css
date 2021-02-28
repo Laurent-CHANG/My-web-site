@@ -16,7 +16,7 @@ html, body {
     width: 50%;
     height: auto;
     margin: auto;
-    max-width: 70%;
+    max-width: 80%;
     padding: 20px 0 40px 0;
     text-align: justify;
     font-size: 23px;
@@ -71,6 +71,13 @@ p {
   font-weight: bolder;
 }
 
+@media screen and (max-width: 700px){
+  .contenu{
+    width: 90%;
+    margin: auto;
+  }
+}
+
 
 /*-------- Section Parallax ----------*/
 
@@ -100,7 +107,7 @@ p {
 
 @media screen and (max-width: 500px) {
   .parallax p {
-      font-size: 55px;
+      font-size: 40px;
   }
 }
 
@@ -156,9 +163,29 @@ p {
   font-size: large;
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
   .experience{
     width: 400px;
+  }
+  .bloc-text-1{
+    width: 150px;
+    height: 200px;
+    font-size: 30px;
+  }
+  .bloc-text-2{
+    width: 150px;
+    height: 200px;
+    font-size: 30px;
+  }
+  .bloc-text-3{
+    width: 150px;
+    height: 200px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 425px){
+  .experience{
+    width: 325px;
   }
   .bloc-text-1{
     width: 150px;
@@ -277,6 +304,11 @@ textarea {
       padding-left: 0;
   }
 }
+@media screen and (max-width: 350px){
+  .section-contact h2{
+    font-size: 30px;
+  }
+}
 
 /* section footer */
 
@@ -290,4 +322,10 @@ footer {
 footer p{
   color: #fffb00;
   font-size: medium;
+}
+@media screen and (max-width: 425px){
+  .footer{
+    width: 90%;
+    margin: auto;
+  }
 }
