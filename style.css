@@ -193,7 +193,21 @@ p {
   .experience{
     width: 90%;
   }
-
+  .bloc-text-1{
+    width: 130px;
+    height: 180px;
+    font-size: 25px;
+  }
+  .bloc-text-2{
+    width: 130px;
+    height: 180px;
+    font-size: 25px;
+  }
+  .bloc-text-3{
+    width: 130px;
+    height: 180px;
+    font-size: 25px;
+  }
 }
 
 
