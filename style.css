@@ -203,6 +203,10 @@ p {
     height: 180px;
     font-size: 25px;
   }
+  .titre-mana{
+    font-size: 3vh;
+
+  }
   .bloc-text-3{
     width: 130px;
     height: 180px;
